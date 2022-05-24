@@ -32,6 +32,5 @@
             "email": "1833320614@qq.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "minimum-stability": "dev"
 }
