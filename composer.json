@@ -1,0 +1,37 @@
+{
+    "name": "yangzx/laravel-invite-code",
+    "description": "laravel invite code pkg",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^5.5|^6.0|^7.0|^8.0|^9.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/Libs/HashGenerator.php",
+            "src/Libs/Hashids.php"
+        ],
+        "psr-4": {
+            "Yangzx\\LaravelInviteCode\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yangzx\\InviteCode\\InviteCodeProvider"
+            ],
+            "aliases": {
+                "InviteCode": "Yangzx\\InviteCode\\Facades\\InviteCode"
+            }
+        }
+    },
+    "authors": [
+        {
+            "name": "yangzx",
+            "email": "1833320614@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
