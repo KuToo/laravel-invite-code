@@ -1,6 +1,7 @@
 <?php
 
 namespace Yangzx\InviteCode;
+
 use Hashids;
 use Illuminate\Config\Repository;
 

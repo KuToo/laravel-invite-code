@@ -10,8 +10,8 @@
     },
     "autoload": {
         "classmap": [
-            "src/Libs/HashGenerator.php",
-            "src/Libs/Hashids.php"
+            "src/libs/HashGenerator.php",
+            "src/libs/Hashids.php"
         ],
         "psr-4": {
             "Yangzx\\LaravelInviteCode\\": "src/"
