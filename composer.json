@@ -13,7 +13,7 @@
             "src/libs/Hashids.php"
         ],
         "psr-4": {
-            "Yangzx\\LaravelInviteCode\\": "src/"
+            "Yangzx\\InviteCode\\": "src/"
         }
     },
     "extra": {
