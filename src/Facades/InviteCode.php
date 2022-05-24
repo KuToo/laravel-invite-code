@@ -1,5 +1,5 @@
 <?php
-namespace Yangzx\Facades\InviteCode;
+namespace Yangzx\InviteCode\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

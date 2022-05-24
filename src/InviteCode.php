@@ -1,6 +1,8 @@
 <?php
 
 namespace Yangzx\InviteCode;
+use Hashids;
+use Illuminate\Config\Repository;
 
 /**
  * 邀请码生成类

@@ -3,7 +3,6 @@
 namespace Yangzx\InviteCode;
 
 use Illuminate\Support\ServiceProvider;
-use function config_path;
 
 class InviteCodeProvider extends ServiceProvider
 {
